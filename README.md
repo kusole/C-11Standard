@@ -5,7 +5,13 @@ C++基础知识学习用例-侯捷的教程
 
 DOC中为C++笔记
 
-### 目录
+### 程序内容
+* [hello_cpp，程序hello测试](Test/hello_cpp.cpp)
+* [01-complex-text，复数类+模版+友元+重载](Test/01-complex-test.cpp)
+* [01-complex-mytext，复数类+模版+友元函数+重载，定义声明分离](Test/01-complex-mytest.cpp)
+
+
+### 笔记文档目录
 * [C/C++函数返回值讨论](DOC/函数返回值.md)
 * [友元函数和模版](DOC/友元函数.md)
 * [C++多态实现及原理](DOC/多态实现.md)
