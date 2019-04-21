@@ -12,5 +12,7 @@ int main() {
     C1 = -C2;
     C1 = C1 + 2;
     C1 = 2 + C1;
+    myComplex<int> C3 = C1++;
+    ++C1;
     return 0;
 }

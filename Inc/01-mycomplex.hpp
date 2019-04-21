@@ -16,6 +16,17 @@ inline myComplex<T> &myComplex<T>::operator=(const myComplex<T> &r) {
     this->im = r.im;
     return *this;
 }
+template <typename T> inline myComplex<T> &myComplex<T>::operator++() {
+    this->re++;
+    this->im++;
+    return *this;
+}
+template <typename T> inline myComplex<T> myComplex<T>::operator++(int) {
+    myComplex<T> cls = *this;
+    this->re++;
+    this->im++;
+    return cls;
+}
 
 template <typename T>
 myComplex<T> operator+(const myComplex<T> &obj1, const myComplex<T> &obj2) {

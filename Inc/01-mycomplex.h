@@ -35,6 +35,8 @@ template <typename T> class myComplex {
 
     myComplex<T> &operator+=(const myComplex<T> &r);
     myComplex<T> &operator=(const myComplex<T> &r);
+    myComplex<T> &operator++();
+    myComplex<T> operator++(int);
     friend myComplex<T> operator+
         <>(const myComplex<T> &obj1, const myComplex<T> &obj2);
     friend myComplex<T> operator+<>(const T a, const myComplex<T> &obj1);
@@ -46,6 +48,7 @@ template <typename T> class myComplex {
         <>(const myComplex<T> &obj1, const myComplex<T> &obj2);
     friend ostream &operator<<<>(ostream &output, const myComplex<T> &r);
     friend myComplex<T> conj<>(const myComplex<T> &r);
+    
 
   private:
     T re;
