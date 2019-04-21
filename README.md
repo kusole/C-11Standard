@@ -7,9 +7,9 @@ DOC中为C++笔记
 
 ### 程序内容
 * [hello_cpp，程序hello测试](Test/hello_cpp.cpp)
-* [01-complex-text，复数类+模版+友元+重载](Test/01-complex-test.cpp)
-* [01-complex-mytext，复数类+模版+友元函数+重载，定义声明分离](Test/01-complex-mytest.cpp)
-
+* [01-complex-test，复数类+模版+友元+重载](Test/01-complex-test.cpp)
+* [01-complex-mytest，复数类+模版+友元函数+重载，定义声明分离](Test/01-complex-mytest.cpp)
+* [02-name-test，简单name类](Test/02-name-test.cpp)
 
 ### 笔记文档目录
 * [C/C++函数返回值讨论](DOC/函数返回值.md)
