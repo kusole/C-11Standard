@@ -30,10 +30,10 @@ myString::myString(const myString &str) {
     strcpy(mData, str.mData);
 }
 
-myString::~myString(){
-    if(mData!=NULL){
+myString::~myString() {
+    if (mData != NULL) {
         len = 0;
-        delete []mData;
+        delete[] mData;
         mData = NULL;
     }
 }
