@@ -15,6 +15,8 @@ Test-为例程测试文件
 * [01-complex-mytest，复数类+模版+友元函数+重载，定义声明分离](Test/01-complex-mytest.cpp)
 * [02-name-test，简单name类](Test/02-name-test.cpp)
 * [03-string-test，简单string类](Test/03-string-test.cpp)
+* [04-Account-test，静态static成员](Test/04-account-test.cpp)
+* [05-singleton-test，静态static成员](Test/05-singleton-test.cpp)
 
 ### 笔记目录
 * [C/C++函数返回值讨论](DOC/函数返回值.md)
