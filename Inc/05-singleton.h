@@ -14,21 +14,22 @@ using namespace std;
 */
 
 class A {
- public:
-  static A &getInstance() { 
-      if(a == NULL){
-          a = new A();
-      }
-      return *a; 
-  }
-  void setup() { cout << "单例模式" <<  this << endl; }
+   public:
+    static A &getInstance() {
+        if (a == NULL) {
+            a = new A();
+        }
+        return *a;
+    }
 
- private:
-  A(){}
-  A(const A &rhs){}
-  static A *a;
+    void setup() { cout << "单例模式" << this << endl; }
+
+   private:
+    A() {}
+    A(const A &rhs) {}
+    static A *a;
 };
-A* A::a = NULL;
+A *A::a = NULL;
 
 // Meyers singleton
 /*
@@ -37,17 +38,17 @@ A* A::a = NULL;
     3.可以把static A a.放入getInstance()函数中，至在调用的时候返回单例。
 */
 class B {
- public:
-  static B &getInstance();
-  void setup() { cout << "改进单例模式" << this << endl; }
+   public:
+    static B &getInstance();
+    void setup() { cout << "改进单例模式" << this << endl; }
 
- private:
-  B(){}
-  B(const B &rhs){}
+   private:
+    B() {}
+    B(const B &rhs) {}
 };
 
 B &B::getInstance() {
-  static B b;
-  return b;
+    static B b;
+    return b;
 }
 #endif
