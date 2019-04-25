@@ -4,6 +4,7 @@
         "*.tcc": "cpp",
         "type_traits": "cpp",
         "iostream": "cpp",
-        "new": "cpp"
+        "new": "cpp",
+        "ostream": "cpp"
     }
 }

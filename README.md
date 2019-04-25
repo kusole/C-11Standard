@@ -18,6 +18,8 @@ Test-为例程测试文件
 * [04-Account-test，静态static成员](Test/04-account-test.cpp)
 * [05-singleton-test，简单的单例类singleton](Test/05-singleton-test.cpp)
 * [06-oop-test，复合委托继承概念](Test/06-oop-test.cpp)
+* [07-virtual-test，虚函数与多态](Test/07-virtual-test.cpp)
+
 
 ### 笔记目录
 * [C/C++函数返回值讨论](DOC/函数返回值.md)
