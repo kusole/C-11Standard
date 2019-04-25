@@ -28,5 +28,12 @@ class CMyDoc1 : public CDocument {
         cout << "CMyDoc1::Serialize()" << endl;
     }
 };
-
+/*
+    Template Method
+            CDocument
+                I
+        CMyDoc.CmyDoc1...
+    CDocument中实现大部分固定的操作，然后将关键不同操作设计为接口（虚函数）
+    由派生类进行完成。
+*/
 #endif

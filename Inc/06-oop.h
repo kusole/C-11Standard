@@ -58,7 +58,10 @@ class sstring {
    private:
     stringRep* rep;
 };
-
+/*
+    委托设计，sstring中包含stringRep指针，多个sstring对象指向一个stringRep，通常用于共享同一份资源，
+    调用在sstring，实现在stringRep中。
+*/
 class C
 {
 public:

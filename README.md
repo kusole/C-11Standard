@@ -24,6 +24,7 @@ Test-为例程测试文件
 * [05-singleton-test，简单的单例类singleton](Test/05-singleton-test.cpp)
 * [06-oop-test，复合委托继承概念](Test/06-oop-test.cpp)
 * [07-virtual-test，虚函数与多态Template Method](Test/07-virtual-test.cpp)
+* [08-dele-inher-test，委托+继承 Observer](Test/08-dele-inher-test.cpp)
 
 
 ### 笔记目录
