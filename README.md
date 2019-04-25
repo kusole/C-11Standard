@@ -17,6 +17,7 @@ Test-为例程测试文件
 * [03-string-test，简单string类](Test/03-string-test.cpp)
 * [04-Account-test，静态static成员](Test/04-account-test.cpp)
 * [05-singleton-test，简单的单例类singleton](Test/05-singleton-test.cpp)
+* [06-oop-test，复合委托继承概念](Test/06-oop-test.cpp)
 
 ### 笔记目录
 * [C/C++函数返回值讨论](DOC/函数返回值.md)
@@ -24,5 +25,5 @@ Test-为例程测试文件
 * [C++多态实现及原理](DOC/多态实现.md)
 * [C++引用和指针](DOC/引用和指针.md)
 * [C++重载操作符](DOC/重载操作符.md)
-* [C++重载操作符](DOC/复合委托继承.md)
+* [C++复合委托继承](DOC/复合委托继承.md)
 

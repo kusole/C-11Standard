@@ -18,7 +18,7 @@ int main_compositionByReference() {
     return 0;
 }
 
-int main_inheritance(){
+int main_inheritance() {
     D d;
     return 0;
 }
