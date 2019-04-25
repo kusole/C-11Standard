@@ -21,4 +21,12 @@ class CMyDoc : public CDocument {
         cout << "CMyDoc::Serialize()" << endl;
     }
 };
+
+class CMyDoc1 : public CDocument {
+   public:
+    virtual void Serialize() {
+        cout << "CMyDoc1::Serialize()" << endl;
+    }
+};
+
 #endif
