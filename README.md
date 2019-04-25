@@ -23,8 +23,9 @@ Test-为例程测试文件
 * [04-Account-test，静态static成员](Test/04-account-test.cpp)
 * [05-singleton-test，简单的单例类singleton](Test/05-singleton-test.cpp)
 * [06-oop-test，复合委托继承概念](Test/06-oop-test.cpp)
-* [07-virtual-test，虚函数与多态Template Method](Test/07-virtual-test.cpp)
-* [08-dele-inher-test，委托+继承 Observer](Test/08-dele-inher-test.cpp)
+* [07-virtual-test，虚函数与多态 Template Method模板方法模式](Test/07-virtual-test.cpp)
+* [08-dele-inher-test，委托+继承 Observer观察者模式](Test/08-dele-inher-test.cpp)
+* [09-dele-inher2-test，委托+继承 composite组合模式](Test/09-dele-inher2-test.cpp)
 
 
 ### 笔记目录
