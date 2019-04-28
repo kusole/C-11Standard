@@ -19,7 +19,7 @@ Test-为例程测试文件
 #### C++高级编程（一）
 
 * [hello_cpp，程序hello测试](Test/hello_cpp.cpp)
-* [01-complex-test，复数类+模版+友元+重载](Test/01-complex-test.cpp)
+* [00-complex-test，复数类+模版+友元+重载](Test/01-complex-test.cpp)
 * [01-complex-mytest，复数类+模版+友元函数+重载，定义声明分离](Test/01-complex-mytest.cpp)
 * [02-name-test，简单name类](Test/02-name-test.cpp)
 * [03-string-test，简单string类](Test/03-string-test.cpp)
@@ -35,6 +35,7 @@ Test-为例程测试文件
 * [11-funclikeclass-test，仿函数 function-like class](Test/11-funclikeclass-test.cpp)
 * [12-functemplate-test，函数模板 function template](Test/12-functemplate-test.cpp)
 * [13-membertemplate-test，成员模板 member template](Test/13-membertemplate-test.cpp)
+* [14-pointer-like-test，指针类 point-like class](Test/14-pointer-like-test.cpp)
 
 ### 笔记目录
 * [C/C++函数返回值讨论](DOC/函数返回值.md)
