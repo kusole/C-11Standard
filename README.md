@@ -34,6 +34,7 @@ Test-为例程测试文件
 * [10-conversion-test，转换函数 conversion function](Test/10-conversion-test.cpp)
 * [11-funclikeclass-test，仿函数 function-like class](Test/11-funclikeclass-test.cpp)
 * [12-functemplate-test，函数模板 function template](Test/12-functemplate-test.cpp)
+* [13-membertemplate-test，成员模板 member template](Test/13-membertemplate-test.cpp)
 
 ### 笔记目录
 * [C/C++函数返回值讨论](DOC/函数返回值.md)
