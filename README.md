@@ -36,6 +36,8 @@ Test-为例程测试文件
 * [12-functemplate-test，函数模板 function template](Test/12-functemplate-test.cpp)
 * [13-membertemplate-test，成员模板 member template](Test/13-membertemplate-test.cpp)
 * [14-pointer-like-test，指针类 point-like class](Test/14-pointer-like-test.cpp)
+* [15-template-specia-test，模板特化 specialization](Test/15-template-specia-test.cpp)
+
 
 ### 笔记目录
 * [C/C++函数返回值讨论](DOC/函数返回值.md)
