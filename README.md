@@ -37,6 +37,7 @@ Test-为例程测试文件
 * [13-membertemplate-test，成员模板 member template](Test/13-membertemplate-test.cpp)
 * [14-pointer-like-test，指针类 point-like class](Test/14-pointer-like-test.cpp)
 * [15-template-specia-test，模板特化 specialization](Test/15-template-specia-test.cpp)
+* [16-partial-specia-test，偏特化 partial-specialization](Test/16-partial-specia-test.cpp)
 
 
 ### 笔记目录
