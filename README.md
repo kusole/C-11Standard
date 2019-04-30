@@ -40,7 +40,7 @@ Test-为例程测试文件
 * [16-partial-specia-test，偏特化 partial-specialization](Test/16-partial-specia-test.cpp)
 * [17-temp-temp-para-test，模板模板参数 template template parameter](Test/17-temp-temp-para-test.cpp)
 * [18-variadic-template-test，不定模板参数 variadic parameter template](Test/18-variadic-template-test.cpp)
-
+* [19-operator-new-dele-test，重载new delete operator new delete](Test/19-operator-new-dele-test.cpp)
 
 ### 笔记目录
 * [C/C++函数返回值讨论](DOC/函数返回值.md)
