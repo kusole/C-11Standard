@@ -4,10 +4,10 @@
 using namespace std;
 
 int main() {
-    myComplex<int> C1(1,2);
-    myComplex<int> C2 = C1;    
+    myComplex<int> C1(1, 2);
+    myComplex<int> C2 = C1;
 
-    C1+=C2+=C2;
+    C1 += C2 += C2;
     C1 = C2;
     C1 = -C2;
     C1 = C1 + 2;

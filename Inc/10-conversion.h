@@ -3,13 +3,13 @@
 #include <iostream>
 
 class Fraction {
-   public:
+  public:
     Fraction(int num, int den = 1) : m_numberator(num), m_denominator(den) {}
     operator double() const {
         return (double)(m_numberator) / (double)(m_denominator);
     }
 
-   private:
+  private:
     int m_numberator;
     int m_denominator;
 };

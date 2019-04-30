@@ -16,7 +16,7 @@ class myString {
     myString(const myString &str);
     //析构
     ~myString();
-    
+
   public:
     // str1 = str2
     myString &operator=(const myString &str);
@@ -41,7 +41,7 @@ class myString {
     friend int operator<(const myString &str1, const char *data);
     friend int operator<(const char *data, const myString &str1);
     // 重载<<
-    friend ostream& operator<<(ostream& output, const myString &str1);
+    friend ostream &operator<<(ostream &output, const myString &str1);
 
   private:
     char *mData;

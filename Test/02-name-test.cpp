@@ -1,6 +1,6 @@
 #include "../Inc/02-name.h"
 
-int main(){
+int main() {
     Name C1("aaaaaaaaaaaa");
     Name C2 = C1;
     Name C3("bb");

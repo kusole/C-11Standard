@@ -8,7 +8,7 @@ using namespace std;
 class Subject;
 
 class Observer {
-   public:
+  public:
     virtual void update(Subject *sub, int value) = 0;
     virtual ~Observer() {
         cout << "decondutor Observer!!!" << endl;
@@ -19,7 +19,7 @@ class Subject {
     int mValue;
     vector<Observer *> mViews;
 
-   public:
+  public:
     void attach(Observer *obs) {
         mViews.push_back(obs);
     }
@@ -41,7 +41,7 @@ class Subject {
 };
 
 class myObserver : public Observer {
-   public:
+  public:
     virtual void update(Subject *sub, int value) {
         cout << sub << " set value = " << value << endl;
     }

@@ -5,7 +5,7 @@ int main() {
     Test<double, double> t1(0.1, 0.2);
     Test<int, char> t2(1, 'A');
     Test<char, bool> t3('A', true);
-    Test<int*, int*> t4(&a, &a);
+    Test<int *, int *> t4(&a, &a);
     Test<const int, const int> t5(1, 2);
 
     vector<int> v1{1, 2, 3};

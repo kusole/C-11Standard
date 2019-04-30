@@ -3,14 +3,14 @@
 
 template <class T1, class T2>
 struct pair {
-   public:
+  public:
     T1 first;
     T2 second;  //first和second类型不需要一样
     pair() : first(T1()), second(T2()) {}
-    pair(const T1& a, const T2& b)
+    pair(const T1 &a, const T2 &b)
         : first(a), second(b) {}
 
-   public:
+  public:
     typedef T1 first_type;
     typedef T2 second_type;
 };
@@ -30,40 +30,54 @@ struct binary_function {
 
 template <class T>
 struct identity : public unary_function<T, T> {
-    const T&
-    operator()(const T& x) const { return x; }
+    const T &
+    operator()(const T &x) const {
+        return x;
+    }
 };
 
 template <class Pair>
 struct select1st : public unary_function<Pair, typename Pair::first_type> {
-    const typename Pair::first_type&
-    operator()(const Pair& x) const { return x.first; }
+    const typename Pair::first_type &
+    operator()(const Pair &x) const {
+        return x.first;
+    }
 };
 
 template <class Pair>
 struct select2nd : public unary_function<Pair, typename Pair::second_type> {
-    const typename Pair::second_type&
-    operator()(const Pair& x) const { return x.second; }
+    const typename Pair::second_type &
+    operator()(const Pair &x) const {
+        return x.second;
+    }
 };
 
 template <class T>
 struct plus : public binary_function<T, T, T> {
-    T operator()(const T& x, const T& y) const { return x + y; }
+    T operator()(const T &x, const T &y) const {
+        return x + y;
+    }
 };
 
 template <class T>
 struct minus : public binary_function<T, T, T> {
-    T operator()(const T& x, const T& y) const { return x - y; }
+    T operator()(const T &x, const T &y) const {
+        return x - y;
+    }
 };
 
 template <class T>
 struct equal_to : public binary_function<T, T, bool> {
-    bool operator()(const T& x, const T& y) const { return x == y; }
+    bool operator()(const T &x, const T &y) const {
+        return x == y;
+    }
 };
 
 template <class T>
 struct less : public binary_function<T, T, bool> {
-    bool operator()(const T& x, const T& y) const { return x < y; }
+    bool operator()(const T &x, const T &y) const {
+        return x < y;
+    }
 };
 
 #endif

@@ -13,10 +13,10 @@ int main() {
     }
     cout << endl;
     //pass by refer
-    for (auto& elem : d) {
+    for (auto &elem : d) {
         elem *= 3;
     }
-    for (auto& elem : d) {
+    for (auto &elem : d) {
         cout << elem << " ";
     }
     cout << endl;

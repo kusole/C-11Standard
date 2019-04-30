@@ -30,25 +30,29 @@ template <typename T> class myComplex {
         this->im = r.im;
     }
 
-    T real() const { return re; }
-    T imag() const { return im; }
+    T real() const {
+        return re;
+    }
+    T imag() const {
+        return im;
+    }
 
     myComplex<T> &operator+=(const myComplex<T> &r);
     myComplex<T> &operator=(const myComplex<T> &r);
     myComplex<T> &operator++();
     myComplex<T> operator++(int);
     friend myComplex<T> operator+
-        <>(const myComplex<T> &obj1, const myComplex<T> &obj2);
+    <>(const myComplex<T> &obj1, const myComplex<T> &obj2);
     friend myComplex<T> operator+<>(const T a, const myComplex<T> &obj1);
     friend myComplex<T> operator+<>(const myComplex<T> &obj1, const T a);
     friend myComplex<T> operator-<>(const myComplex<T> &r);
     friend bool operator==
-        <>(const myComplex<T> &obj1, const myComplex<T> &obj2);
+    <>(const myComplex<T> &obj1, const myComplex<T> &obj2);
     friend bool operator!=
-        <>(const myComplex<T> &obj1, const myComplex<T> &obj2);
-    friend ostream &operator<<<>(ostream &output, const myComplex<T> &r);
+    <>(const myComplex<T> &obj1, const myComplex<T> &obj2);
+    friend ostream &operator<<< > (ostream &output, const myComplex<T> &r);
     friend myComplex<T> conj<>(const myComplex<T> &r);
-    
+
 
   private:
     T re;

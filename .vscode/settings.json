@@ -32,6 +32,8 @@
         "system_error": "cpp",
         "tuple": "cpp",
         "typeinfo": "cpp",
-        "utility": "cpp"
-    }
+        "utility": "cpp",
+        "algorithm": "cpp"
+    },
+    "editor.fontFamily": "'DroidSansMono NF',Consolas, 'Courier New', monospace"
 }

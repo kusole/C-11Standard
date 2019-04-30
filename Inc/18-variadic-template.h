@@ -9,7 +9,7 @@ void print() {
 }
 
 template <typename T, typename... Types>
-void print(const T& firstArg, const Types&... args) {
+void print(const T &firstArg, const Types &... args) {
     cout << firstArg;
     cout << "\t还剩下参数个数为： " << sizeof...(args) << endl;
     print(args...);

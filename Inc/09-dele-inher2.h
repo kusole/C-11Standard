@@ -8,18 +8,20 @@ using namespace std;
 class Component {
     int value;
 
-   public:
-    Component(int val) { value = val; }
-    virtual void add(Component*){};
-    int get_val() const { return value; }
+  public:
+    Component(int val) : value(val) {}
+    virtual void add(Component *) {};
+    int get_val() const {
+        return value;
+    }
     virtual ~Component() {
         cout << "delete Component " << this->get_val() << endl;
     }
-    virtual void show(){}
+    virtual void show() {}
 };
 
 class Primitive : public Component {
-   public:
+  public:
     Primitive(int val) : Component(val) {}
     virtual ~Primitive() {
         cout << "delete Primitive " << this->get_val() << endl;
@@ -27,11 +29,11 @@ class Primitive : public Component {
 };
 
 class Composite : public Component {
-    vector<Component*> c;
+    vector<Component *> c;
 
-   public:
+  public:
     Composite(int val) : Component(val) {}
-    void add(Component* elem) {
+    void add(Component *elem) {
         c.push_back(elem);
     }
     void show() {

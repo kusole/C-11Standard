@@ -10,38 +10,38 @@ class Name {
   public:
     Name(const char *str) {
         len = strlen(str);
-        p = (char *)malloc((len+1)*sizeof(char));
+        p = (char *)malloc((len + 1) * sizeof(char));
         strcpy(p, str);
     }
 
-    Name(const Name &str){
+    Name(const Name &str) {
         len = str.len;
-        p = (char*)malloc((len+1)*sizeof(char));
+        p = (char *)malloc((len + 1) * sizeof(char));
         strcpy(p, str.p);
     }
 
-    Name &operator=(const Name& str){
-        if(p!=NULL){
+    Name &operator=(const Name &str) {
+        if (p != NULL) {
             free(p);
-            p=NULL;
+            p = NULL;
             len = 0;
         }
         this->len = str.len;
-        this->p = (char*)malloc((this->len+1)*sizeof(char));
+        this->p = (char *)malloc((this->len + 1) * sizeof(char));
         strcpy(p, str.p);
         return *this;
     }
 
-    ~Name(){
-        if(p!=NULL){
+    ~Name() {
+        if (p != NULL) {
             free(p);
-            p=NULL;
+            p = NULL;
             len = 0;
         }
     }
 
-    void printName(){
-        cout << "\tp = " << this->p << "\tlen = " << strlen(p) <<endl; 
+    void printName() {
+        cout << "\tp = " << this->p << "\tlen = " << strlen(p) << endl;
     }
 
   private:

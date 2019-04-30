@@ -1,6 +1,6 @@
 #include "../Inc/08-dele-inher.h"
 
-int main(){
+int main() {
     Subject S;
     Observer *p1 = new myObserver;
     Observer *p2 = new myObserver;

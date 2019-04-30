@@ -1,6 +1,6 @@
 #include "../Inc/05-singleton.h"
 
-int main(){
+int main() {
     A::getInstance().setup();
     A::getInstance().setup();
     B::getInstance().setup();

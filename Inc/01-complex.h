@@ -82,9 +82,9 @@ template <typename T> class complex {
 
     friend complex<T> operator-<>(complex<T> &r);
 
-    friend ostream &operator<<<>(ostream &output, const complex<T> &r);
+    friend ostream &operator<<< > (ostream &output, const complex<T> &r);
     friend complex<T> operator+
-        <>(const complex<T> &obj1, const complex<T> &obj2);
+    <>(const complex<T> &obj1, const complex<T> &obj2);
     friend complex<T> operator+<>(const complex<T> &obj1, T a);
     friend complex<T> operator+<>(T a, const complex<T> &obj1);
     friend bool operator==<>(const complex<T> &obj1, const complex<T> &obj2);
@@ -98,9 +98,13 @@ template <typename T> class complex {
           其中的real函数必须为const函数，否则发生编译错误；
           原因为const对象的值不能改变，如果调用非const成员函数可能会改变里面的值
     */
-    const T &real() const { return re; }
+    const T &real() const {
+        return re;
+    }
     // T real(T r) {re = r;}
-    const T &imag() const { return im; }
+    const T &imag() const {
+        return im;
+    }
 
   private:
     /*
@@ -125,7 +129,9 @@ template <typename T> class complex {
       complex C2;
       C2.func(C1);
     */
-    int func(const complex &param) { return param.re + param.im; }
+    int func(const complex &param) {
+        return param.re + param.im;
+    }
 };
 
 template <typename T>
