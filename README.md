@@ -44,6 +44,7 @@ Test-为例程测试文件
 
 #### C++ 2.0新特性
 * [20-lamdba-test，lamdba语法](Test/20-lamdba-test.cpp)
+* [21-initializer-list-test，initializer_list](Test/21-initializer-list-test.cpp)
 
 
 ### 笔记目录
