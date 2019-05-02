@@ -42,6 +42,10 @@ Test-为例程测试文件
 * [18-variadic-template-test，不定模板参数 variadic parameter template](Test/18-variadic-template-test.cpp)
 * [19-operator-new-dele-test，重载new delete operator new delete](Test/19-operator-new-dele-test.cpp)
 
+#### C++ 2.0新特性
+* [20-lamdba-test，lamdba语法](Test/20-lamdba-test.cpp)
+
+
 ### 笔记目录
 * [C/C++函数返回值讨论](DOC/函数返回值.md)
 * [友元函数和模版](DOC/友元函数.md)
