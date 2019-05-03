@@ -7,7 +7,7 @@
             "includePath": [
                 "${workspaceFolder}"
             ],
-            "cppStandard": "c++17"
+            "cppStandard": "c++11"
         }
     ],
     "version": 4

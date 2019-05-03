@@ -39,12 +39,13 @@ Test-为例程测试文件
 * [15-template-specia-test，模板特化 specialization](Test/15-template-specia-test.cpp)
 * [16-partial-specia-test，偏特化 partial-specialization](Test/16-partial-specia-test.cpp)
 * [17-temp-temp-para-test，模板模板参数 template template parameter](Test/17-temp-temp-para-test.cpp)
-* [18-variadic-template-test，不定模板参数 variadic parameter template](Test/18-variadic-template-test.cpp)
+* [18-variadic-template-test，不定模板参数(一) variadic parameter template](Test/18-variadic-template-test.cpp)
 * [19-operator-new-dele-test，重载new delete operator new delete](Test/19-operator-new-dele-test.cpp)
 
 #### C++ 2.0新特性
 * [20-lamdba-test，lamdba语法](Test/20-lamdba-test.cpp)
 * [21-initializer-list-test，initializer_list](Test/21-initializer-list-test.cpp)
+* [22-variadic-template2-test，不定模板参数(二)待总结](Test/22-variadic-template2-test.cpp)
 
 
 ### 笔记目录
