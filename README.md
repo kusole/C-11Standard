@@ -46,7 +46,8 @@ Test-为例程测试文件
 * [20-lamdba-test，lamdba语法](Test/20-lamdba-test.cpp)
 * [21-initializer-list-test，initializer_list](Test/21-initializer-list-test.cpp)
 * [22-variadic-template2-test，不定模板参数(二)待总结](Test/22-variadic-template2-test.cpp)
-
+* [23-range-base-for-test, range for,auto,decltype,alias template](Test/23-range-base-for-test.cpp)
+* [24-move-forward-test，右值引用，移动语义，完美转发，无序容器](Test/24-move-forward-test.cpp)
 
 ### 笔记目录
 * [C/C++函数返回值讨论](DOC/函数返回值.md)
