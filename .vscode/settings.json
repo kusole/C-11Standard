@@ -34,7 +34,10 @@
         "typeinfo": "cpp",
         "utility": "cpp",
         "algorithm": "cpp",
-        "bitset": "cpp"
+        "bitset": "cpp",
+        "map": "cpp",
+        "functional": "cpp",
+        "memory": "cpp"
     },
     "editor.fontFamily": "'DroidSansMono NF',Consolas, 'Courier New', monospace"
 }
