@@ -50,6 +50,8 @@ Test-为例程测试文件
 * [24-move-forward-test，右值引用，移动语义，完美转发，无序容器](Test/24-move-forward-test.cpp)
 * [25-std-optional-test, std optional 接受空对象，提高性能](Test/25-std-optional-test.cpp)
 * [26-lazy-test，惰性求值类，延迟大对象创建](Test/26-lazy-test.cpp)
+* [27-Any-test，容纳任何类型的类](Test/27-Any-test.cpp)
+
 
 ### 笔记目录
 * [C/C++函数返回值讨论](DOC/函数返回值.md)
